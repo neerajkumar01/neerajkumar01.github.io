@@ -3,10 +3,13 @@ var app = document.getElementById('app');
 var typewriter = new Typewriter(app, {
     loop: true
 });
-typewriter.typeString('NEERAJ KUMAR')
-    .pauseFor(2500)
+typewriter.typeString('HELLO I AM NEERAJ KUMAR')
+    .pauseFor(1500)
     .deleteAll()
-    .typeString('A MCA PERSUER')
+    .typeString('A PASSIONATE WEB DEVELOPER')
+    .pauseFor(1500)
+    .deleteAll()
+    .typeString('A PYTHON ENTHUSIAST')
     .pauseFor(2500)
     .start();
 

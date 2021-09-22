@@ -166,10 +166,12 @@ background: black;
     letter-spacing: 1px;
     font-weight: 500;
 }
-
 .demo-video:hover{
-    color:rgba(14, 199, 190, 0.699) ;
+    color:rgba(175, 175, 175, 0.699) ;
     
+}
+.fa-youtube{
+    color:rgb(248, 6, 6);
 }
 
 /* about me section */
@@ -261,7 +263,7 @@ h6{
 /* footer section */
 .foterclass{
     letter-spacing: 1px;
-    
+
 }
 
 /* utility  */
