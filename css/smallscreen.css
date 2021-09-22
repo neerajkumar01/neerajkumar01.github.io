@@ -46,6 +46,10 @@
     padding: -110;
     
 }
+.demo-video{
+    display: block;
+    text-align:left;
+}
 
 /* about section */
 #about-me{
