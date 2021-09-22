@@ -161,6 +161,7 @@ background: black;
 }
 
 .demo-video{
+    display: block;
     color:white ;
     transition:color 0.5s;
     letter-spacing: 1px;
