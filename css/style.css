@@ -1,0 +1,324 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* smooth scroll */
+html{
+    scroll-behavior: smooth;
+}
+
+/* variables */
+:root{
+    --primary-color:#333;
+    --secondary-color:rgba(255, 255, 255, 0.863);
+    --navbar-height: 2rem;
+}
+.font-primary{
+    font-family: 'Ubuntu', sans-serif;
+}
+.font-secondary{
+    font-family: 'Stick No Bills', sans-serif;   
+}
+
+a{
+    text-decoration: none;
+}
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    z-index:1; 
+}
+
+/* navbar : logo and images */
+#logo{
+    margin: 13px 48px;
+} 
+
+#logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.logo-border{
+    border: 3px solid rgb(250, 250, 250);
+    border-radius: 50%;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+}
+
+/* navbar : list items */
+#navbar::before{
+content: '';
+
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: .8;
+background: black;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{    
+    list-style: none;
+    font-size: 1rem;
+    color:white;
+}
+
+#navbar ul li a{ 
+    display: block;   
+    padding: 10px 22px;
+    border-radius: 1px;
+    text-decoration: none;
+    color: white;
+    transition: background .7s;
+    letter-spacing: 1px;
+
+}
+
+#navbar ul li a:hover{
+    background:rgba(224, 224, 224, 0.945);
+    color: rgba(2, 2, 2, 0.904);
+}
+
+/* home section */
+#Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 200px;
+    color:white;
+    height: 690px;
+    text-align: center;
+     letter-spacing: 1px;
+}
+
+#Home p{
+    padding:.5rem;    
+}
+
+#Home::before{
+    content: '';
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8999;
+    background: url('/img/background_image.jpg') center center/cover no-repeat;
+}
+
+/* project section */
+#Projects{
+    margin: 0px 34px 34px 34px;
+    display: flex;
+   
+}
+
+#Projects .box{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 34px;
+    margin: 3px 31px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(26, 24, 24, 0.548), rgba(39, 39, 39, 0.61)),url('/img/texture-990104_1920\ \(1\).jpg');
+    /* width: 33%; */
+    color: white;
+}
+
+#Projects .box img{
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+
+#Projects .box h2{
+    padding:10px 0;
+    text-align: center;    
+    letter-spacing: 3px; 
+    font-size: 1.32rem;
+}
+
+#Projects .box p{
+    padding:10px 0;
+    text-align: justify;   
+    letter-spacing: 1px; 
+    font-weight: 500;
+}
+
+.demo-video{
+    color:white ;
+    transition:color 0.5s;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.demo-video:hover{
+    color:rgba(14, 199, 190, 0.699) ;
+    
+}
+
+/* about me section */
+#about-me-section{
+    position: relative;
+    height: 300px;
+    color:white;
+}
+
+#about-me-section::before{
+    content:"";
+    position:absolute;
+    background: url('/img/background_image.jpg') center center/cover;
+    opacity: .8;
+    z-index: -1;
+    height: 350px;
+    width: 100%;
+
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-description{
+letter-spacing:1px;
+}
+
+#about-me img{
+    height:100px;
+}
+
+.about-me-box{
+    padding:49px 15px;
+}
+
+/* contact section */
+#contact{
+    position: relative;
+    top: 100px;
+}
+
+#contact a{
+    padding-top: 900px;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    margin: 15px;
+}
+
+h6{
+    padding: 10px 10px;
+}
+.icon-center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#contact .in{
+/* border:1px solid black; */
+ border-radius: 50%;
+ color:white;
+ background: rgb(60, 123, 241);
+
+}
+
+#contact .m{
+/* border:1px solid black;    */
+    border-radius: 50%;
+    background: crimson;
+    color: white;
+
+}
+
+#footer-id{
+    position: relative;
+    top: 130px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(27, 27, 27);
+    color: cornsilk;
+}
+
+/* footer section */
+.foterclass{
+    letter-spacing: 1px;
+    
+}
+
+/* utility  */
+.center{
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 2.1rem;
+    padding: 15px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-weight: 800;
+    letter-spacing: 1px;
+   
+}
+.btn{
+    padding: 15px 40px;
+    background: rgba(0, 0, 0, 0.144);
+    color: white;
+    margin: 20px;
+    border: 1px solid white;
+    font-size:1rem;
+    font-weight: 600;
+    
+    transition: .8s ;
+    cursor: pointer;
+}
+.btn:hover{
+    background:rgba(255, 255, 255, 0.774);
+    color: rgba(2, 2, 2, 0.712);
+}
+
+/* scrollbar design */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #6d6d6d 0%, #202020 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255); 
+  }
+
+  ::-webkit-scrollbar-track:hover {
+    background: rgb(59, 59, 59); 
+  }

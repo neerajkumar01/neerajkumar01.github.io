@@ -1,0 +1,77 @@
+/* navbar */
+#navbar{
+    flex-direction: column ;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0 7px;
+    padding-bottom:10px;
+}
+
+/* home section */
+#Home{
+    height: 393px;
+    padding: 1rem  1.5rem;
+}
+
+#Home::before{
+    height: 500px;
+}
+
+#Home p{
+    font-size: .9rem;
+}
+/* project section */
+#Projects{
+    flex-direction: column;
+    text-align: center;
+}
+
+#Projects .box{
+    padding: 20px 30%;
+    margin: 12px -5%;
+    width: 50%;
+    text-align: center;
+}
+
+#Projects .box h2 {
+    font-size: 1.1rem;
+    margin: 1.0rem -3rem;
+    text-align: center;
+}
+
+#Projects .box p{
+    margin: 0 -3.5rem;
+    padding: -110;
+    
+}
+
+/* about section */
+#about-me{
+flex-wrap: wrap;
+
+}
+.about-me-box{
+    padding: 13px 15px;    
+}
+
+#about-me img{
+    height: 60px;
+    
+    }
+/* contact section */
+#contact{
+
+}
+
+/* utility classes */
+
+.h-primary{
+    font-size: 1.1rem;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 10px;
+}
