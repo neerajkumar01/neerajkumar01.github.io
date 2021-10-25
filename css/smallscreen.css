@@ -54,7 +54,9 @@
 /* about section */
 #about-me{
 flex-wrap: wrap;
-
+}
+#about-me-section::before{
+    height: 410px;
 }
 .about-me-box{
     padding: 13px 15px;    
@@ -64,10 +66,7 @@ flex-wrap: wrap;
     height: 60px;
     
     }
-/* contact section */
-#contact{
-
-}
+/* contact section *
 
 /* utility classes */
 

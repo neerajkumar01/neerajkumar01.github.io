@@ -20,7 +20,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
 }
 .font-secondary{
-    font-family: 'Stick No Bills', sans-serif;   
+    font-family: 'Roboto', sans-serif;;   
 }
 
 a{
@@ -308,7 +308,7 @@ h6{
 .justify{
     font-size: .9rem;
     letter-spacing: 3px;
-    text-align: justify;
+    text-align: center;
     padding: 0 10%;
 }
 .padding-top-bottom{
