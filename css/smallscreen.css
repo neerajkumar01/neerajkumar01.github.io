@@ -51,12 +51,12 @@
     text-align:left;
 }
 
-/* about section */
+/* about section  EDUCATION*/
 #about-me{
 flex-wrap: wrap;
 }
 #about-me-section::before{
-    height: 500px;
+    height: 530px;
 }
 .about-me-box{
     padding: 13px 15px;    
@@ -71,7 +71,7 @@ flex-wrap: wrap;
 
 #about-me-section{
     position: relative;
-    height: 410px;
+    height: 430px;
     color:white;
 }
 
