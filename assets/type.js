@@ -6,11 +6,11 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('HELLO I AM NEERAJ KUMAR')
     .pauseFor(1500)
     .deleteAll()
-    .typeString('A PASSIONATE WEB DESIGNER')
+    .typeString('QUICK LEARNER')
     .pauseFor(1500)
     .deleteAll()
-    .typeString('A PYTHON ENTHUSIAST')
-    .pauseFor(2500)
+    .typeString('DATA ANALYTICS ENTHUSIAST')
+    .pauseFor(1500)
     .start();
 
     // the documentation can be found here : https://safi.me.uk/typewriterjs/ 
